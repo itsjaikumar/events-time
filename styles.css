@@ -1,0 +1,454 @@
+body{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-image: url(../img/img.jpg);
+    padding: 0;
+    margin: 0;
+}
+
+/*------------------------------------------------------home page-------------------------------------------------------*/
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+.button_1{
+    background: coral;
+    padding: 0 30px 0 30px ;
+    height: 50px;
+    border: 0;
+    color: #ffffff;
+    font-size: 16px;
+    width: 250px;
+    border-radius: 8px 8px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    transition: 0.6s ease;
+
+}
+.button_1:hover{
+    background-color: #fff;
+    color: coral;
+    border: 3px solid coral;
+
+}
+.button_2{
+    background:transparent;
+    padding: 0 30px 0 30px ;
+    height: 50px;
+    border: 0;
+    color: var(--inv);
+    font-size: 18px;
+    width: 250px;
+    border-radius: 8px 8px;
+    margin-left: 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.button_2:hover{
+    background-color: #fff;
+    color: coral;
+    border: 3px solid coral;
+}
+
+
+
+.header{
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+
+}
+
+.header a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: 0.7s ease;
+    border: 1px solid transparent ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.header li{
+    float: left;
+    padding: 0 20px 0 20px ;
+    display: inline;
+}
+
+
+
+.header #branding{
+    float: left; 
+}
+
+.header #branding h1{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+.header #branding p{
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header ul{
+    float: right;
+    margin-top: 20px;
+
+}
+
+.header .highlight, .header .current a{
+    color: orange;
+    font-weight: bold;
+ 
+}
+
+.header a:hover{
+    color: orange;
+    font-weight: bold;
+}
+.line{
+    width: 1500px;
+    height: 1px;
+    margin: 20px auto;
+    border-bottom: 1px solid #fff;
+
+}
+
+#showcase{
+    min-height: 400px;
+
+    text-align: center;
+    color: #ffffff;
+    margin-top: 35px;
+    margin-bottom: 600px;
+
+}
+#showcase h1{
+    margin-top: 100px;
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-weight: 900;
+}
+
+#showcase p{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+form{
+    margin-top: 50px;
+}
+
+form input{
+    padding: 4px;
+    height: 45px;
+    width: 280px;
+    margin-left: 15px;
+    border-radius: 5px 5px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+}
+
+.button{
+    margin-top: 40px;
+}
+
+@media(max-width:768px){
+    .header #branding,
+    .header ul,
+    .header li,
+    #showcase h1,
+    #showcase form{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .header{
+        padding-bottom: 10px;
+    }
+
+    #showcase h1{
+        margin-top: 30px;
+        font-size: 35px;
+        margin-left: 0;
+        line-height: 50px;
+
+    }
+    #showcase .button_1, #showcase .button_2{
+        width: 100%;
+        display: block;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    #showcase form input{
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:960px){
+    .header #branding,
+    .header ul,
+    .header li,
+    #showcase h1,
+    #showcase form{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .header{
+        padding-bottom: 10px;
+    }
+
+    #showcase h1{
+        margin-top: 30px;
+        font-size: 35px;
+        margin-left: 0;
+        line-height: 50px;
+
+    }
+    #showcase .button_1, #showcase .button_2{
+        width: 100%;
+        display: block;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    #showcase form input{
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
+
+
+
+/* -------------------------------------------------gallery section---------------------------------------------------- */
+
+.gallery-section{
+    width: 100%;
+    background: #fff;
+    font-family: "montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding-top: 70px;
+}
+
+.inner-width{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.gallery-section h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 700;
+}
+.gallery-section p{
+    text-align: center;
+    color: #333;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.border{
+    width: 100px;
+    height: 4px;
+    background: cyan;
+    margin: 20px auto;
+}
+
+.gallery-section .gallery{
+    margin-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+
+}
+
+.gallery-section .image{
+    flex: 25%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gallery-section .image img{
+    width: 100%;
+    height: 100%;
+    transition: 0.6s;
+}
+
+.gallery-section .image:hover img{
+    transform: scale(1.4) rotate(15deg);
+}
+
+@media  screen and (max-width:768px){
+    .gallery-section .image{
+        flex: 50%;
+    }
+}
+
+@media  screen and (max-width:480px){
+    .gallery-section .image{
+        flex: 100%;
+    }
+}
+
+@media  screen and (max-width:960px){
+    .gallery-section .image{
+        flex: 33.33%;
+    }
+}
+ 
+/* ----------------------------------------------------FOOTER---------------------------------------------------------- */
+
+
+#footer-area{
+    background: #262626;
+    padding: 90px 0 60px 0;
+    color: #fff;
+}
+.first{
+    margin-left: 0;
+}
+.footer-social{
+    margin-top: 20px;
+}
+
+.single-footer{
+    padding-left: 0px;
+}
+
+.single-footer h3{
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #fafafa;
+    font-size: 22px;
+}
+
+.single-footer .main{
+    margin: 0;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.link-area li{
+    padding: 5px 5px 5px 0;
+    list-style: none;
+}
+
+.link-area li a{
+    text-transform: capitalize;
+    color: #ddd;
+    transition: 0.6s ease;
+}
+
+.link-area li a:hover{
+    text-decoration: none;
+    color: coral;
+}
+
+.link-area a:hover{
+    text-decoration: none;
+    color: coral;
+}
+
+.link-area li a i{
+    margin-right: 10px;
+    color: #ddd;
+}
+
+
+.link-area{
+    padding: 0px;
+}
+
+.single-footer p{
+    line-height: 35px;
+}
+
+.footer-social li a{
+    width: 30px;
+    height: 30px;
+    display: inline;
+    background: #000;
+    float: left;
+    margin: 0 5px 0 3px;
+}
+
+.footer-social li a i{
+    color: #fff;
+    padding: 8px;
+    transition: 0.6s ease;
+    border: 1px solid coral;
+}
+
+.footer-social li a i:hover{
+    background: coral;
+    color: black;
+}
+
+.widget li{
+    float: left;
+    width: 50%;
+}
+
+.widget li a img{
+    margin-bottom: -10px;
+    width: 100%;
+    height: 70px;
+}
+
+.copyright-area{
+    background: #000;
+    padding: 30px 0;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.copyright-area p{
+    font-weight: 0;
+    color: #fafafa;
+}
+span{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+@media (max-width:768px){
+    .single-footer h3{
+        padding-top: 20px;
+    }
+
+}
