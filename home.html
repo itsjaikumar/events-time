@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Time</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+</head>
+<body>
+
+<!---------------------------------------------------home page----------------------------------------------------------->
+
+    <div class="header">
+        <div class="container">
+            <div id="branding">
+                <h1>EVENT TIME</h1>
+                <p>Event Management</p>
+            </div>
+            <ul>
+                <li class="current"><a href="home.html">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Event</a></li>
+                <li><a href="#">Speaker</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="line"></div>
+    <section id="showcase">
+        <div class="container">
+            <p>December 31, 2020 23:59</p>
+            <h1>FRONT END DEVELOPER CONFERENCE</h1>
+            <form action="">
+                <input type="text" placeholder="Your Name...">
+                <input type="email" placeholder="Your Email...">
+                <input type="text" placeholder="Your Phone...">
+                <div class="button">
+                    <button type="submit" class="button_1">Register Now</button>
+                    <button type='submit' class="button_2">Watch Video</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+   <!--------------------------------------------------Gallery page---------------------------------------------------->  
+
+
+    <div id="gallery" class="gallery-section">
+        <div class="inner-width">
+            <h1>Our Gallery</h1>
+            <div class="border"></div>
+            <p>These are some of the pictures takes from the previous <br>Front End developer conference held in <br>india on Dec 31 2019.</p>
+            <div class="gallery">
+                <a href="img/img1.jpg" class="image">
+                    <img src="img/img1.jpg" alt="">
+                </a>
+                <a href="img/img2.jpg" class="image">
+                    <img src="img/img2.jpg" alt="">
+                </a>
+                <a href="img/img3.jpg" class="image">
+                    <img src="img/img3.jpg" alt="">
+                </a>
+                <a href="img/img4.jpg" class="image">
+                    <img src="img/img4.jpg" alt="">
+                </a>
+                <a href="img/img5.jpg" class="image">
+                    <img src="img/img5.jpg" alt="">
+                </a>
+                <a href="img/img6.jpg" class="image">
+                    <img src="img/img6.jpg" alt="">
+                </a>
+                <a href="img/img7.jpg" class="image">
+                    <img src="img/img7.jpg" alt="">
+                </a>
+                <a href="img/img8.jpg" class="image">
+                    <img src="img/img8.jpg" alt="">
+                </a>
+                
+            </div>
+        </div>
+    </div>
+    <script>
+        $(".gallery").magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery:{
+                enabled: true
+            }
+        });
+    </script>
+
+<!------------------------------------------------------------Footer----------------------------------------------------->
+    <footer>
+        <div id="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="first">
+                        <div class="single-footer">
+                            <h3 class="main">EVENT TIME</h3>
+                            <p>Event Management</p>
+                            <p>We do anything from large national touring concerts, to local shows. With so many elements that need to be properly balanced in order to ensure the successful execution of your event, you need a platform that is convenient and reliable and that's us.</p>
+                            <ul class="footer-social list-inline">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-footer">
+                            <h3>QUICK LINKS</h3>
+                            <ul class="link-area">
+                                <li><a href="#"><i class="fa fa-long-arrow-right"></i>FAQS</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right"></i>Support</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right"></i>Sitemap</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right"></i>Blog</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right"></i>Community</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right"></i>Membership</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right"></i>Event</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right"></i>Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-footer">
+                            <h3>TWITTER FEED</h3>
+                                <ul class="link-area">
+                                    <p>WordPress 5.5 “Eckstine”
+                                    <a href="#"><br>https://t.co/gAmyaYAq28</a>
+                                    <br>about 3 weeks ago</p>
+                                    <p>WordPress 5.5 Release Canditate 2
+                                    <a href="#"><br>https://t.co/Et8t8xxjV5</a>
+                                    <br>about 4 weeks ago</p>
+                                    <p>The Month in WordPress: July 2020
+                                    <a href="#"><br>https://t.co/9oDLDLCoKr</a>
+                                    <br>about 4 weeks ago</p>   
+                                </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-footer">
+                            <h3>FOOTER WIDGET</h3>
+                            <ul class="link-area widget list-inline">
+                                <li><a href="#"><img src="img/pic1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="img/pic2.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="img/pic3.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="img/pic4.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="img/pic5.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="img/pic6.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="img/pic7.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="img/pic8.jpg" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="copyright-area text-center">
+                            <p>&copy; 2020 <span>EVENT TIME</span> ALL RIGHTS RESERVED</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
